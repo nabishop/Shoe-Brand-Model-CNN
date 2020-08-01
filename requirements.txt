@@ -1,0 +1,10 @@
+requests
+textblob
+tweepy
+beautifulsoup4
+selenium
+Pillow
+numpy
+tensorflow
+matplotlib
+google_images_download
