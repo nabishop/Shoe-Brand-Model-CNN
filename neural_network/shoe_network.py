@@ -104,9 +104,6 @@ class SCNN:
 
         # get all data under one brand, execute network for that data
         for brand in detailing.known_brands:
-            if brand != "nike":
-                continue
-
             if detailing.label_brand(brand) not in self.brand_shoes_map.keys():
                 continue
 
